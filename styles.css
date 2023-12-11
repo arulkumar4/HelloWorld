@@ -1,5 +1,10 @@
 body{
     margin: 0;
-    background: purple yellow;
+    font-family: "Open Sans", sans-serif;
+    background-image: linear-gradient(to bottom right, purple, yellow);
     text-align: center;
+}
+
+.school {
+    font-size: 40px;
 }
