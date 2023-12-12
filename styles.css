@@ -2,9 +2,16 @@ body{
     margin: 0;
     font-family: "Open Sans", sans-serif;
     background-image: linear-gradient(to bottom right, purple, yellow);
-    text-align: center;
+    color: white;
 }
 
-.school {
+.schoolheader {
     font-size: 40px;
+    padding: 20px;
+    text-align: center;    
+}
+
+.tablestyle {
+    margin-left: auto;
+    margin-right: auto;
 }
