@@ -7,11 +7,26 @@ body{
 
 .schoolheader {
     font-size: 40px;
-    padding: 20px;
     text-align: center;    
+}
+
+.paddingtop20 {
+    padding-top: 20px;
+}
+
+.dateFont {
+    font-size: 15px;
 }
 
 .tablestyle {
     margin-left: auto;
     margin-right: auto;
+}
+
+.textleft {
+    text-align: left !important;    
+}
+
+.warning {
+    text-align: center;  
 }

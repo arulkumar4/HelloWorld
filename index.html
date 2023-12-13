@@ -3,7 +3,7 @@
     <script src="https://randojs.com/1.0.0.js"></script>
     <script>
         function showRandomNumber(){
-            document.getElementById("reportNumber").innerHTML = rando(5, 10);
+            document.getElementById("reportNumber").innerHTML = rando(5, 9);
         }
     </script>    
     <meta charset="UTF-8">
@@ -13,7 +13,10 @@
 </head>
 <body onload="showRandomNumber();">
     <div class="schoolheader">
-        <p>Vista Billabong High School</p>
+        <p class="paddingtop20">Vista Billabong High School</p>
+        <p class="dateFont">
+            <script>document.write(new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric'}));</script>
+        </p>        
     </div>
 
     <table class="tablestyle">
@@ -30,6 +33,15 @@
             <td><span id="reportNumber"></span></td>
         </tr>              
     </table>
-   
+
+    <div class="warning"> 
+        <p>Effective immediately, we kindly request that your children refrain from using the following applications within the household:</p>
+        <p><b>Online Applications:</b></p>
+        <p>YouTube</p>
+        <p>YouTube Kids</p>
+        <p><b>Online Games:</b></p>  
+        <p>PUBG</p>
+        <p>FreeFire</p>        
+    </div>
 </body>
 </html>
