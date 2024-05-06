@@ -30,3 +30,8 @@ body{
 .warning {
     text-align: center;  
 }
+
+.warning-red {
+    text-align: center; 
+    color: red; 
+}
