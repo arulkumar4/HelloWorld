@@ -46,3 +46,7 @@ footer {
 .textleft {
     text-align: left !important;    
 }
+
+.red-heading {
+    color: red;
+}
